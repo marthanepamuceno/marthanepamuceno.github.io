@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Audios en html</title>
+    <link rel="stylesheet" href="../css/estiloaudio.css">
+     <style type="text/css">
+         
+         main{
+             text-align: center;
+         }
+         
+         main section{
+             width: 40%;
+             height: 600px;
+             display: inline-block;
+             margin-left: 20px;
+             margin-right: 20px;
+             overflow-y: auto;
+             
+         }
+         main h2, {
+             text-align: left;
+         }
+         h1{
+             font-size: 64px;}
+          
+         footer img{
+                   width: 50px;
+                   margin-left: 20px;
+                   margin-right: 20px;
+                   filter: drop-shadow(3px 3px 6px black);
+            
+         }
+  
+        header h1 a img{
+             width: 50px;
+            
+             float:inline-end;
+               filter: drop-shadow(3px 3px 6px black);
+            
+         }
+    </style>
+       
+       </head>
+        
+    <body>
+    
+        <header>
+            <h1><a href="../index.html"><img src="../imagenes/home.png" target="_blank"></a>AUDIO</h1>
+        </header>
+        
+        <nav>
+            <ul>
+               
+                <li><a href="../html/formatos.html">Formatos</a></li>
+                <li><a href="../html/listas.html">Listas</a></li>
+                <li><a href="../html/enlaces.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/audios.html">Audio</a></li>
+                <li><a href="../html/videos.html">Video</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            
+            </ul>
+        
+    
+        </nav>
+    <main>
+        
+         <section>
+            <h2>Audio simple</h2>
+            
+             <p>Ut faucibus congue nibh, at consequat mi tempus id. Nunc condimentum neque sit amet est placerat tristique. Nulla et rutrum libero, vitae blandit dolor. Mauris id posuere magna, eget maximus lorem. Aenean ipsum magna, lacinia et felis ut, sollicitudin gravida ante. Suspendisse elementum ultricies congue. Curabitur in aliquam elit. Integer feugiat non quam non tristique. Vivamus lobortis orci ac dignissim volutpat. Phasellus lacinia, massa sit amet lobortis sodales, nisl lacus molestie ex, a consequat est turpis id neque. Sed enim ipsum, sagittis quis odio eu, sodales consequat lectus.</p>
+                <br><br>
+                  
+                   <audio controls>
+                    <source src="../audio/Back%20At%20The%20Gates%20-%20Karneef.mp3">
+                    El navegador no soporta el formato del audio
+                </audio>
+            
+        </section>
+        
+        <section>
+            <h2>Audio con autoplay silenciado</h2>
+            
+            <p>Curabitur neque tellus, convallis eget nibh ac, dapibus eleifend sapien. Vivamus bibendum tincidunt elit, eget iaculis leo tincidunt non. Mauris venenatis magna ut venenatis ornare. Nulla ac sapien nibh. Vivamus feugiat sit amet turpis in posuere. Donec diam justo, auctor eget leo ut, porttitor maximus neque. Proin dictum metus sagittis, gravida ex suscipit, ornare tellus.</p>
+                <br><br>
+                <audio controls autoplay muted>
+                    <source src="../audio/Some%20Green%20Some%20Yellow%20-%20Karneef.mp3">
+                    El navegador no soporta el formato del audio
+                </audio>
+          </section>
+        
+         <section>
+          
+             <h2>Audio con reproducción ciclica</h2>
+            
+            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin a tellus nec enim luctus lobortis pretium non felis. Nunc luctus elementum diam a finibus. Pellentesque interdum euismod neque, a pretium ligula sodales nec. Suspendisse convallis feugiat nibh in consectetur. Praesent nec luctus risus, non viverra ligula. Vivamus auctor tincidunt nulla, quis tincidunt elit posuere molestie. Nulla facilisi.</p>
+                   <br><br>
+                   <audio controls loop>
+                    <source src="../audio/What%20If%20So%20Then%20-%20Karneef.mp3">
+                    El navegador no soporta el formato del audio
+                </audio>
+        </section>
+        
+        <section>
+            <h2>Audio de repositorio: Ivoox</h2>
+            
+            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin a tellus nec enim luctus lobortis pretium non felis. Nunc luctus elementum diam a finibus. Pellentesque interdum euismod neque, a pretium ligula sodales nec. Suspendisse convallis feugiat nibh in consectetur. Praesent nec luctus risus, non viverra ligula. Vivamus auctor tincidunt nulla, quis tincidunt elit posuere molestie. Nulla facilisi.</p>
+            <br>
+            <iframe src="https://www.ivoox.com/player_es_podcast_958_zp_1.html?c1=3a7b95" width="100%" height="400" frameborder="0" allowfullscreen="" scrolling="no" loading="lazy"></iframe>
+        
+        </section>
+        
+         <section>
+            <h2>Audio de repositorio: Spotify</h2>
+            
+            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin a tellus nec enim luctus lobortis pretium non felis. Nunc luctus elementum diam a finibus. Pellentesque interdum euismod neque, a pretium ligula sodales nec. Suspendisse convallis feugiat nibh in consectetur. Praesent nec luctus risus, non viverra ligula. Vivamus auctor tincidunt nulla, quis tincidunt elit posuere molestie. Nulla facilisi.</p>
+            <br>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5fj32MKLHkut2Vod1UodcU?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </section>
+        
+         <section>
+            <h2>Lista de Reproducción: Spotify</h2>
+            
+            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin a tellus nec enim luctus lobortis pretium non felis. Nunc luctus elementum diam a finibus. Pellentesque interdum euismod neque, a pretium ligula sodales nec. Suspendisse convallis feugiat nibh in consectetur. Praesent nec luctus risus, non viverra ligula. Vivamus auctor tincidunt nulla, quis tincidunt elit posuere molestie. Nulla facilisi.</p>
+                <br>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX5wcLXSDDcgy?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </section>
+   
+    </main>
+        
+    <footer>
+       <a href="https://www.facebook.com/martita.nepamucenoramirez/?locale=es_LA" target="_blank"><img src="../imagenes/facebook.png"></a>
+        <a href="https://www.instagram.com/marneraz/"><img src="../imagenes/instagram.png" target="_blank"></a>
+        <a href="https://mx.pinterest.com/marthearte/_profile/"><img src="../imagenes/pin.png" target="_blank"></a>
+        <br><br>
+        <h6>Elaborado por Martha Patricia Nepamuceno Ramirez</h6>
+     </footer>
+     </body>
+</html>

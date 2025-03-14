@@ -1,0 +1,253 @@
+/*
+Facultad de Arquitectura
+Colegio de Diseño Grafico
+Diseño de Interfaces Graficas de Usuario
+18-Nepamuceno Ramirez Martha Patricia
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sigmar&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main, footer{
+    background-color: #023047;
+    color: #b792ff;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+  
+        
+}
+header{
+   
+    height: auto;
+    letter-spacing: 1em;
+}
+nav{
+    background-color: #A6215F ;
+    text-align: center;
+    
+}
+
+#tabla_0{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-spacing: 10px;
+    border: 1px solid black;
+}
+
+#tabla_0 th, #tabla_0 td{
+    border: 1px solid black;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #023047;
+    width: 10%;
+    min-width: 110px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: 5px;
+}
+
+nav ul li a:link, nav ul a:visited {
+    text-decoration: none;
+    color: #ffffff; 
+}
+nav ul li:hover{
+    background-color: #91A646;
+    
+}
+section{
+    background-color: #b792ff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    color: #023047;
+    overflow-x: auto;
+    width: 80%;
+    
+}
+h2{
+    margin-bottom: 30px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+
+footer{
+    height: auto;
+    background-color: #A6215F;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+#tabla_1{
+    background-color: aquamarine;
+    border: 3px solid brown;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+
+#tabla_1 th{
+    
+    font-size: 20px;
+    background-color: bisque;
+    color: brown;
+    
+}
+#tabla_1 th, #tabla_1 td{
+    border: 3px solid #023047;
+    padding: 10px;
+    
+}
+
+#tabla_cebra{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+border-collapse: collapse;
+}
+#tabla_cebra th{
+    background-color: #00a896;
+    
+}
+
+#tabla_cebra td, #tabla_cebra th{
+    padding: 10px;
+    border-width: 5px;
+    border-color: #219ebc;
+    border-style: solid;
+}
+#tabla_cebra tbody tr:nth-child(even){
+    background-color: #8ecae6;
+}
+#tabla_cebra tbody tr:nth-child(odd){
+    background-color: #ffb703;
+}
+
+#tabla_hover{
+    width: 70%;
+    background-color: #023047;
+    color: antiquewhite;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+    
+    
+}
+#tabla_hover th{
+    background-color: aquamarine;
+    color: cadetblue;
+    
+}
+#tabla_hover tr:hover{
+    background-color: #ffb703;
+    color: #023047;
+    
+}
+#tabla_hover td, #tabla_hover th{
+    border-width: 2px;
+    border-color: blanchedalmond;
+    border-style: solid;
+    padding: 20px;
+    
+    
+}
+
+
+main section{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+   
+    }
+    
+
+
+
+p{
+    margin-top: 20px;
+    
+}
+
+
+.alineacion{
+    float: right;
+    margin: 0;
+}
+
+form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: darksalmon;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    
+}
+
+label{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input, textarea, select{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: pink;
+    font-weight: bold;
+    font-size: 19px;
+    
+    
+    
+}
+textarea{
+    padding: 10px;
+}
+input[type=submit]{
+    width: 20%;
+    padding: 10px;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    color: lavenderblush;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus, select:focus{
+    background-color: beige;
+    color: darkslateblue;
+}
+
+input[type=radio], input[type=checkbox]{
+    width: 20%;
+}

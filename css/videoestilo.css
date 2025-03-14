@@ -1,0 +1,181 @@
+/*
+Facultad de Arquitectura
+Colegio de Diseño Grafico
+Diseño de Interfaces Graficas de Usuario
+18-Nepamuceno Ramirez Martha Patricia
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sigmar&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main, footer{
+    background-color: #023047;
+    color: #D96941;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+  
+        
+}
+header{
+   
+    height: auto;
+    letter-spacing: 1em;
+    
+}
+h1{
+    font-size:48px;
+}
+nav{
+    background-color: powderblue;
+    text-align: center;
+    
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #023047;
+    width: 10%;
+    min-width: 110px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: 5px;
+}
+
+nav ul li a:link, nav ul a:visited {
+    text-decoration: none;
+    color: #ffffff; 
+}
+nav ul li:hover{
+    background-color: #91A646;
+    
+}
+section{
+    background-color: #D96941;
+    width: 40%;
+    height: 650px;
+    display: inline-block;
+  margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;/*
+    padding: 30px;*/
+    color: #023047;
+    overflow-y: auto;
+    /*width: 80%;*/
+    
+}
+h2{
+    margin-bottom: 30px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+
+footer{
+    height: auto;
+    background-color: powderblue;
+    font-size: 18px;
+    text-align: center;
+    color: #023047;
+
+}
+
+
+
+main section{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+   
+    }
+    
+
+
+
+p{
+    margin-top: 20px;
+    
+}
+
+
+.alineacion{
+    float: right;
+    margin: 0;
+}
+
+form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: darksalmon;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    
+}
+
+label{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input, textarea, select{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: pink;
+    font-weight: bold;
+    font-size: 19px;
+    
+    
+    
+}
+textarea{
+    padding: 10px;
+}
+input[type=submit]{
+    width: 20%;
+    padding: 10px;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    color: lavenderblush;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus, select:focus{
+    background-color: beige;
+    color: darkslateblue;
+}
+.vid_pinterest{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: center;
+}
+
+input[type=radio], input[type=checkbox]{
+    width: 20%;
+}

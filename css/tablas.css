@@ -1,0 +1,215 @@
+
+/*
+Facultad de Arquitectura
+Colegio de Diseño Grafico
+Diseño de Interfaces Graficas de Usuario
+18-Nepamuceno Ramirez Martha Patricia
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sigmar&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main, footer{
+    background-color: #023047;
+    color:#F27979;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+     font-family: "Poppins", sans-serif;
+        
+}
+nav{
+    background-color: #b792ff;
+    text-align: center;
+    
+}
+
+
+
+#tabla_0{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-spacing: 10px;
+    border: 2px solid #023047;
+    padding: 5px;
+}
+
+#tabla_0 th, #tabla_0 td{
+    border: 1px solid #023047;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color:#023047;
+    width: 10%;
+    min-width: 110px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: 5px;
+}
+
+nav ul li a:link, nav ul a:visited {
+    text-decoration: none;
+    color: white; 
+}
+nav ul li:hover{
+    background-color: #A6215F;
+    
+    
+}
+section{
+    background-color: #F27979;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    color: #023047;
+    overflow-x: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h2{
+    margin-bottom: 30px;
+    
+}
+header h1 a img{
+             width: 50px;
+            
+             float:inline-end;
+               filter: drop-shadow(3px 3px 6px black);
+         }
+h1{
+    text-align: center;
+    font-size: 64px;
+    
+}
+header{
+    letter-spacing: 1em;
+}
+footer{
+    height: auto;
+    background-color: #b792ff;
+    font-size: 18px;
+    text-align: center;
+    color: #023047
+
+}
+footer img{
+                   width: 50px;
+                   margin-left: 20px;
+                   margin-right: 20px;
+                   filter: drop-shadow(3px 3px 6px black);
+            
+         }
+
+#tabla_1{
+    background-color:#023047 ;
+    border: 3px solid brown;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+
+#tabla_1 th{
+    
+    font-size: 20px;
+    background-color: #b792ff;
+    color: #023047;
+    
+}
+#tabla_1 th, #tabla_1 td{
+    border: 3px solid white;
+    padding: 10px;
+    
+    
+}
+
+#tabla_1 tr{
+    color: white;
+   
+}
+
+#tabla_cebra{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+border-collapse: collapse;
+}
+#tabla_cebra th{
+    background-color: white;
+    color: #023047;
+    
+}
+
+#tabla_cebra td, #tabla_cebra th{
+    padding: 10px;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+}
+#tabla_cebra tbody tr:nth-child(even){
+    background-color:  #023047;
+    color:  #b792ff;
+}
+#tabla_cebra tbody tr:nth-child(odd){
+    background-color: #b792ff;
+    color: #023047;
+}
+
+#tabla_hover{
+    width: 70%;
+    background-color: #023047;
+    color: white;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+    
+    
+}
+#tabla_hover th{
+    background-color: #b792ff;
+    color: #023047;
+    
+}
+#tabla_hover tr:hover{
+    background-color: #0F41A6;
+    color: white;
+    
+}
+#tabla_hover td, #tabla_hover th{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    padding: 20px;
+}
+    main sectiion{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+#imag_gif{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

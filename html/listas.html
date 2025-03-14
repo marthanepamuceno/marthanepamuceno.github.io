@@ -1,0 +1,359 @@
+<!--
+Facultad de Arquitectura
+Colegio de Diseño Grafico
+Diseño de Interfaces Graficas de Usuario
+Nepamuceno Ramirez Martha Patricia
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Listas en html</title>
+        <link rel="stylesheet" href="../css/listasestilo.css">
+        <style type="text/css">
+            
+           
+           
+            /*
+            header{
+                width: 100%;
+                height: 100px;
+                background-color: mediumpurple;
+                color: floralwhite;
+                padding: 30px;
+            }
+        
+            nav{
+                width: 100%;
+                height: 100px;
+                background-color: rebeccapurple;
+                padding: 30px;
+                    
+                
+            }
+            main{
+                width: 100%;
+                height: 2160px;
+                background-color: mediumorchid;
+                padding: 30px;
+                    
+                
+            }
+            
+            footer{
+                width: 100%;
+                height: 40px;
+                background-color: mediumpurple;
+                padding: 30px;
+            }
+            header,nav,main,footer{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            section{
+                width: 900px;
+                height: 600px;
+                background-color: lavenderblush;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            header h1,footer h6{
+                text-align: center;
+            }
+            
+            footer h6{
+                color: beige;
+                font-size: 14px;
+                
+            }
+           
+            h2{
+                margin-bottom: 20px;
+                color: rebeccapurple;
+            }
+            
+            p,li{
+                color: darkslateblue
+            }
+             nav ul Li{
+                list-style-type: none;
+                width: 180px;
+                height: 30px;
+                background-color: mistyrose;
+                margin-bottom: 10px;
+                display: inline-block;
+                padding: 10px;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            nav ul{
+                
+                text-align: center
+            }*/
+           
+            *{
+               
+                margin: 0;
+                box-sizing: border-box;
+            }
+        
+            
+            body{
+                padding: 0;
+                margin: 0;
+            }
+           
+         header, nav, main, footer{
+    background-color: #023047;
+    color:#91A646 ;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+  
+        
+}
+            header{
+                height: auto;
+                letter-spacing: 1em;
+                
+                
+            }
+            
+            header h1 a img{
+             width: 50px;
+            
+             float:inline-end;
+                   filter: drop-shadow(3px 3px 6px black);
+            
+         }
+                        
+            section{
+                width: 80%;
+                height: auto;
+                background-color: #91A646;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 30px; 
+                margin-left: auto;
+                margin-right: auto;
+    
+            }
+            
+            nav{
+    background-color: #F27979;
+    text-align: center;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #023047;
+    width: 10%;
+    min-width: 110px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: 5px;
+}
+            nav ul li a:link, nav ul a:visited {
+    text-decoration: none;
+    color: #ffffff; 
+    text-align: center;
+}
+nav ul li:hover{
+    background-color: darkcyan;
+   
+    
+}
+nav[type=text]:hover{
+                color:  #023047;
+            }
+section{
+ 
+
+    color: #023047;
+
+
+    
+}
+h2{
+    margin-bottom: 30px;
+  
+    
+}
+h1{
+    text-align: center;
+    font-size: 64px;
+   
+}
+h6{
+    color: #023047;
+}
+
+footer{
+    height: auto;
+    background-color: #F27979;
+    font-size: 18px;
+    text-align: center;
+
+}
+            footer img{
+                   width: 50px;
+                   margin-left: 20px;
+                   margin-right: 20px;
+                   filter: drop-shadow(3px 3px 6px black);
+            
+         }
+
+main section{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+   
+    }
+    
+
+
+
+p {
+    margin-top: 20px;
+    
+}
+
+
+        </style>
+       
+    
+    
+    
+    </head>
+    <body>
+        <header>
+            <h1><a href="../index.html"><img src="../imagenes/home.png" target="_blank"></a>LISTAS</h1>
+        </header>
+        
+        <nav>
+        <ul>
+            <li><a href="../html/formatos.html">Formatos</a></li>
+            <li><a href="../html/listas.html">Listas</a></li>
+            <li><a href="../html/enlaces.html">Enlaces</a></li>
+            <li><a href="../html/tablas.html">Tablas</a></li>
+            <li><a href="../html/imagenes.html">Imagenes</a></li>
+            <li><a href="../html/audios.html">Audios</a></li>
+            <li><a href="../html/videos.html">Videos</a></li>
+            <li><a href="../html/formularios.html">Formularios</a></li>
+           
+        </ul>
+        </nav>
+        
+        <main>
+            <section>
+                <h2>Listas ordenadas </h2>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris en lectus vel magna tristique ornare. Pelentesque ac velit at metus convallis lacinia. Sed ex diam, mollis et velit in, imperdiet laoreet neque. Suspendisse sem erat, dapibus non faucibus vitae, convallis eget est. Cras efficitur rhoncus mauris, at efficitur diam posuere tincidunt. Quisque consequat diam eu ex euismod, porttitor molestie felis ullamcorper. Vivamus dapibus ante eu velit laoreet, id mattis nisi aliquet. Praesent volutpat arcu sit amet mi dapibus sollicitudin. Aliquam erat volutpat. Proin suscipit eros nibh, non rhoncus felis efficitur eu. Pellentesque consequat leo in lectus pulvinar ultricies. En en.</p>
+                <br>
+                  <ol>
+                      <li>Colombia</li>
+                      <li>Escocia</li>
+                    <li>Korea</li>
+                    <li>Suiza</li>
+                    <li>Paris</li>
+                    <li>Japón</li>
+                    <li>Alemania</li>
+                    <li>Australia</li>
+                    <li>Tailandia</li>
+                    <li>Noruega</li>
+                  </ol>
+                   
+            </section>
+            
+            <section>
+                <h2> Listas desordenadas</h2>
+               
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non elit lacus. Habitante pellentesco morbi tristique senectus et netus et malesuada famas ac turpis egetas. Phasellus faucibus non felis quis rhoncus. Morbi finibus ex quis imperdiet pretium. Nulla facilisi. Sed a consectetur metus, quis molestie elit. Sed dolor ante, tristique eget nibh a, placerat condimentum enim. Mauris maximus dui in.</p>
+                <br>
+                <ul>
+                    <li>Veracruz</li>
+                    <li>Guanajuato</li>
+                    <li>Nuevo León</li>
+                    <li>Guadalajara</li>
+                    <li>Tamaulipas</li>
+                    <li>Queretaro</li>
+                    <li>Puebla</li>
+                    <li>Quintana Roo</li>
+                    <li>Nayarit</li>
+                    <li>Yucatán</li>
+                </ul>
+                
+            </section>
+           
+            <section>
+                <h2> Listas mixtas </h2>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque tortor, rutrum at enim quis, condimentum auctor orci. Ut et elit arcú. Etiam faucibus metus in laoreet semper. Donec sem tortor, lacinia id dui quis, consectetur vehicula nunc. Nam eu convallis mauris. Cras nibh urna, dignissim eu lorem vel, lobortis vehicula quam. Nam dignissim mauris sed ullamcorper convallis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce a tellus nec orci sollicitudin scelerisque. Entero consectetur erat lacus, vitae lacinia elit venenatis at. Fusce fringilla vulputate risus.</p>
+                <br>
+                <ol>
+                   
+                    <li>Atlixco</li>
+                    <li>Cholula
+                       
+                        <ul>
+                            <li>San Cristobal Tulcingo</li>
+                            <li>Las Calandrias</li>
+                            <li>Momoxpan</li>
+                            <li>El Pilar</li>
+                            <li>Zerezontla</li>
+                            <li>La Paz</li>
+                        </ul>
+                        
+                    </li>    
+                    <li>Zacatlán</li>
+                    <li>Chignahuapan</li>
+                    <li>Puebla
+                            <ul>
+                                <li>San Manuel</li>
+                                <li>Amalucan</li>
+                                <li>Mexico 68</li>
+                                <li>San Ramon</li>
+                                <li>El carmen</li>
+                                <li>La Paz</li>
+                            </ul>
+                    </li>
+                    
+                    <li>Amozoc
+                        <ul>
+                                <li>Paso del arroyo</li>
+                             <li>La Loma</li>
+                                <li>El Pozo</li>
+                        </ul>
+                    </li>
+                    <li>Tehuacán</li>
+                    <li>Acajete</li>
+                    <li>Izucar de Matamoros</li>
+                    <li>Tecamachalco</li>
+                </ol>
+            </section>
+        </main>
+        
+        <footer>
+           <a href="https://www.facebook.com/martita.nepamucenoramirez/?locale=es_LA" target="_blank"><img src="../imagenes/facebook.png"></a>
+        <a href="https://www.instagram.com/marneraz/"><img src="../imagenes/instagram.png" target="_blank"></a>
+        <a href="https://mx.pinterest.com/marthearte/_profile/"><img src="../imagenes/pin.png" target="_blank"></a>
+        <br><br>
+            <h6>Elaborado por Martha Patricia Nepamuceno Ramírez</h6>
+        </footer>
+    </body>
+
+</html>

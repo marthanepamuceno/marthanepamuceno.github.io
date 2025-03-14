@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>formularios en html</title>
+        <link rel="stylesheet" href="../css/formularioestilo.css" type="text/css">
+        
+     </head>
+    <body>
+        <header>
+            <h1><a href="../index.html"><img src="../imagenes/home.png" target="_blank"></a>FORMULARIOS</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../html/formatos.html">Formatos</a></li>
+                <li><a href="../html/listas.html">Listas</a></li>
+                <li><a href="../html/enlaces.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imágenes</a></li>
+                <li><a href="../html/audios.html">Audio</a></li>
+                <li><a href="../html/videos.html">Video</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Formularios</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio cum debitis numquam, officiis deserunt quidem laboriosam autem! Incidunt, voluptates sed nemo molestiae. Deserunt vitae perferendis, beatae, voluptates esse distinctio dolor fuga nobis itaque, maiores accusantium minus culpa ea ipsum tenetur. Quasi tempore voluptate veniam consequuntur ex dolor veritatis reprehenderit quia aut saepe asperiores mollitia porro, nobis ad, repellat, doloremque earum eos aliquam. Placeat veritatis explicabo inventore magnam accusamus beatae aspernatur laboriosam non nam reprehenderit, repellat, aut saepe, quo, reiciendis provident accusantium soluta neque. Ad architecto exercitationem eaque voluptatem labore ullam rem neque nulla cumque adipisci iusto, debitis necessitatibus odit magni?</p>
+                <br>
+                   <form action="" method="get">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" value="">
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" value="">
+                    <input type="submit" value="Enviar">
+                </form>
+             </section>
+            <section>
+                <h2>Formularios</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum omnis corporis vitae consectetur, consequuntur ea dolore, ratione minima quisquam distinctio dolorem voluptas nihil mollitia! Ducimus odit blanditiis, doloremque quod accusamus, totam architecto! Magnam porro placeat ut commodi impedit hic nostrum deserunt et accusamus error esse incidunt consequatur iusto id, voluptatibus expedita molestiae labore. Natus autem ducimus sit necessitatibus? Quae culpa earum rem iste distinctio eveniet neque voluptates fugiat, assumenda ut, vero eum rerum repudiandae tenetur sit incidunt perspiciatis harum architecto fugit aliquid. Eius, nostrum eum doloremque repudiandae obcaecati corporis consectetur fugit ipsam, eos suscipit, sint, veritatis excepturi? Culpa illum, repudiandae!</p>
+                <br>
+                <form action="" method="get">
+                <label for="nombre-1">Nombre:</label>
+                <input type="text" id="nombre-1" value="">
+                <label for="correo">Email:</label>
+                <input type="email" id="correo" name="correo" value="">
+                <label for="comentario">Comentario:</label>
+                <textarea name="comentario" rows="10" cols="100"  >
+                Escribe aqui tu comentario...
+                </textarea>
+                <br>
+                <input type="submit" value="Enviar">
+                </form>
+            </section>
+            <section>
+                <h2>Formularios</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, harum, ipsa! Vel eius odit eum excepturi atque culpa vero sapiente fuga, in recusandae quas molestias, itaque aut minima illo nisi eos, est aperiam magni reiciendis quod cum non maiores ea error? Nulla quo fugiat id, cumque earum laudantium, eos, sunt et alias aut nostrum obcaecati ex? Assumenda eaque molestiae quos odio magnam eligendi. Mollitia corrupti nihil quasi veniam fugit non itaque placeat dolore, blanditiis perferendis facilis eos a assumenda distinctio, animi. Dolor nemo, perspiciatis sequi perferendis. Officia omnis iure esse voluptatibus quae accusantium, est molestiae quam, veniam dolorem sunt cum.</p>
+                <br>
+                   <form action="" method="get">
+                    <label for="nombre-2">Nombre:</label>
+                    <input type="text" id="nombre-2" name="nombre-2"  value="">
+                    <label for="genero">Genero:</label>
+                    
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                    <label for="femenino">Femenino</label>
+                   <br>
+                   <br>
+                    <label for="pais">¿De que pais nos visitas?</label>
+                    <select id="pais" name="pais">
+                        <option value="argentina">Argentina</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="ecuador">Ecuador</option>
+                        <option value="españa">España</option>
+                        <option value="estados_unidos">Estados unidos</option>
+                        <option value="francia">Francia</option>
+                        <option value="italia">Italia</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="paraguay">Paraguay</option>
+                    </select>  
+                    <br><br>
+                    
+                    <label for="turismo">Razon por la que visitas nuestro pais</label>
+                    <br>
+                    <input type="checkbox" id="turismo-1" name="turismo-1" value="cultura">
+                    <label for="turismo1">Cultura</label>
+                    <input type="checkbox" id="turismo-2" name="turismo-2" value="gastronomia">
+                    <label for="turismo2">Gastronomia</label>
+                    <input type="checkbox" id="turismo-3" name="turismo-3" value="ecoturismo">
+                    <label for="turismo3">Ecoturismo</label>
+                    <input type="checkbox" id="turismo-4" name="turismo-4" value="Museos">
+                    <label for="turismo4">Museos</label>
+                    <input type="submit" value="Enviar">
+                    
+                        
+                    
+                </form>
+            </section>
+            <section>
+                <h2>Formularios</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, explicabo cum? Quo recusandae unde tempora, voluptatibus! Nesciunt reprehenderit est molestias ratione quas voluptate sequi, modi reiciendis iure quasi facere at neque quis dolorem fuga tenetur recusandae ea vitae. Praesentium dolorum quae error, facere amet saepe dignissimos magnam quaerat velit quod porro dicta cum voluptas beatae doloribus explicabo quo? Culpa doloribus placeat nam, possimus quisquam rem pariatur accusantium. Sunt voluptatibus quas sapiente quos repellendus molestias cupiditate dolores dicta voluptatem sit! Qui nulla ipsa consectetur cum iure veniam, incidunt voluptate sequi, quis tenetur delectus vel est dolore consequatur voluptatem voluptatum nihil doloribus?</p>
+               <br>
+               <form action="" method="get" >
+                      <label for="mes-visita">¿En que mes y año nos visitaste?</label>
+                      <input type="month" id="mes-visita" name="mes-visita">
+  
+                      <label for="cantidad-visitantes">¿Cuantas personas te acompañaron en tu viaje?</label>
+                      <input type="number" id="camntidad-visitantes" name="cantidad-visitantes" min="0" max="20">
+                      <br>
+                        <label for="lugares">Selecciona los lugares que visitaste(Ctrl [windows] / Command [Mac] ):</label>
+                        <select id="lugares" name="lugares" size="6" multiple>
+                          <option value="museo">Museo</option>
+                          <option value="bosque">Bosque</option>
+                          <option value="playa">Playa</option>
+                          <option value="parquedediversiones">Parque de diversiones</option>
+                          <option value="zocalo">Zocalo</option>
+                          <option value="zoologico">Zoologico</option>
+                   </select>
+                   <fieldset>
+    <legend>Hospedaje</legend>
+    <label for="fname">Direccion:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br>
+ <label for="calidad-servicio">Experiencia</label>
+                    <select id="calidad-servicio" name="calidad-servicio">
+                        <option value="-">-</option>
+                        <option value="terrible">Terrible</option>
+                        <option value="mala">Mala</option>
+                        <option value="neutra">Neutra</option>
+                        <option value="buena">Buena</option>
+                        <option value="excelente">Excelente</option>
+                       
+                    </select>  
+  </fieldset>
+                
+<br>
+ <p>¡Comparte fotografias de tu viaje!</p>
+
+                            <label for="myfile">Subir fotos:</label>
+  <input type="file" id="myfile" name="myfile">
+                     <input type="submit" value="Enviar">
+                       </form>
+                       
+            </section>
+        </main>
+        <footer>
+           <a href="https://www.facebook.com/martita.nepamucenoramirez/?locale=es_LA" target="_blank"><img src="../imagenes/facebook.png"></a>
+        <a href="https://www.instagram.com/marneraz/"><img src="../imagenes/instagram.png" target="_blank"></a>
+        <a href="https://mx.pinterest.com/marthearte/_profile/"><img src="../imagenes/pin.png" target="_blank"></a>
+        <br><br>
+            <h6>Elaborado por Martha Patricia Nepamuceno Ramirez</h6>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,120 @@
+/*
+Facultad de Arquitectura
+Colegio de Diseño Grafico
+Diseño de Interfaces Graficas de Usuario
+18-Nepamuceno Ramirez Martha Patricia
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sigmar&display=swap');
+h1{
+    font-size: 64px;
+}
+/*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main, footer{
+    background-color: #023047;
+    color: #91A646;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+  
+        
+}
+section{
+                width: 80%;
+                height: auto;
+                background-color: #91A646;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 30px; 
+                margin-left: auto;
+                margin-right: auto;
+    
+            }
+header{
+    font-family: "Sigmar", sans-serif;
+    height: auto;
+    letter-spacing: 1em;
+}
+nav{
+    background-color: #F27979;
+    text-align: center;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #023047;
+    width: 10%;
+    min-width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: 5px;
+}
+
+nav ul li a:link, nav ul a:visited {
+    text-decoration: none;
+    color: #ffffff; 
+}
+nav ul li:hover{
+    background-color: darkcyan;
+    
+}
+section{
+ 
+
+    color: #023047;
+
+
+    
+}
+h2{
+    margin-bottom: 30px;
+  
+    
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+   
+}
+h6{
+    color: #023047;
+}
+
+footer{
+    height: 20px;
+    background-color: #F27979;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+main section{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+   
+    }
+    
+
+
+
+p {
+    margin-top: 20px;
+    
+}
+*/

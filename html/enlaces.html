@@ -1,0 +1,220 @@
+<!--
+Facultad de Arquitectura
+Colegio de Diseño Grafico
+Diseño de Interfaces Graficas de Usuario
+Nepamuceno Ramirez Martha Patricia
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+
+        <title>Enlaces en html</title>
+    
+        <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+            header,nav, main,footer{
+                width: 100%;
+                padding: 50px;
+                background-color: #023047;
+                color: #F2EFBD;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: "Poppins", sans-serif;
+            }
+        
+            nav{
+                background-color: darkcyan;
+                text-align: center;
+            }
+       
+            main{
+                background-color: #023047;
+                height: auto;
+            }
+            
+            section{
+                width: 80%;
+                height: auto;
+                background-color: #F2EFBD;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 30px;
+                margin-left: auto;
+                margin-right: auto;
+                color: #023047;
+            }
+        header h1 a img{
+             width: 50px;
+            
+             float:inline-end;
+               filter: drop-shadow(3px 3px 6px black);
+            
+         }
+            header{
+                text-align: center;
+                letter-spacing: 1em;
+            }
+            footer{
+                text-align: center;
+            }
+        
+            h1{
+                font-size: 64px;
+                
+            }
+
+            h6{
+                font-size: 18px;
+            }
+        
+            nav ul{
+                text-align: center
+            
+            }
+       
+            nav ul li{
+                list-style-type: none;
+                display: inline-block;
+                background-color: #023047;
+                width: 10%;
+                min-width: 110px;
+                padding: 10px;
+                text-align: center;
+                border-radius: 30px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                margin-left: 5px;
+                margin-right: 5px;
+                margin: 5px;
+            
+            }
+            
+            p{
+                margin-top: 20px;
+            }
+            section a:visited, section a:link{
+                color: deeppink;
+                text-decoration: none;
+            }
+            section a:active{
+                color: skyblue;
+            }
+            section a:hover{
+                color: darkcyan;
+                font-weight: bold
+            }
+            
+            nav a:link, nav a:visited{
+                color: white;
+                text-decoration: none;
+                
+            }
+            nav ul li:hover{
+                background-color:#F27979;
+            }
+            body main nav{
+                width: 100%;
+              
+         
+            }
+            
+            footer{
+    height: auto;
+    background-color: darkcyan;
+    font-size: 18px;
+    text-align: center;
+
+}
+            footer img{
+                   width: 50px;
+                   margin-left: 20px;
+                   margin-right: 20px;
+                   filter: drop-shadow(3px 3px 6px black);
+            
+         }
+    </style>
+    </head>
+
+<body>
+    <header>
+    <h1><a href="../index.html"><img src="../imagenes/home.png" target="_blank"></a>ENLACES</h1>
+        
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../html/formatos.html">Formatos</a></li>
+            <li><a href="../html/listas.html">Listas</a></li>
+            <li><a href="../html/enlaces.html">Enlaces</a></li>
+            <li><a href="../html/tablas.html">Tablas</a></li>
+            <li><a href="../html/imagenes.html">Imágenes</a></li>
+            <li><a href="../html/audios.html">Audio</a></li>
+            <li><a href="../html/videos.html">Video</a></li>
+            <li><a href="../html/formularios.html">Formularios</a></li>
+        </ul>
+        
+    </nav>
+    <main>
+     
+        <section>
+            <h2 id="Externo">Enlace externo</h2>
+            
+            <p>Pellentesque Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris purus elit, egestas nec gravida ut, porta vel velit. Mauris venenatis tempus nisi ut cursus. Aliquam mollis tellus nunc, a pellentesque arcu bibendum et. Etiam nisl tortor, pharetra at lorem eu, porttitor aliquam quam. Phasellus malesuada, nisl nec euismod semper, leo odio luctus diam, nec accumsan magna elit a turpis. </p>
+            <p>Lorem ipsum dolor sit amet, auris purus elit, egestas nec gravida ut, porta vel velit. Mauris venenatis tempus nisi ut cursus. Aliquam mollis tellus nunc, a pellentesque arcu bibendum et. Etiam nisl tortor, pharetra at lorem eu, porttitor aliquam quam. Phasellus malesuad <a href="http://www.google.com">Google</a> consectetur adipiscing elit.  Praesent gravida vel ligula ut lobortis. In a ornare diam. Cras finibus rhoncus pharetra. <a href="http://www.buap.com">Benemerita Universidad Autonoma de Puebla</a> Pellentesque Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris purus elit, egestas nec gravida ut, porta vel velit. Mauris venenatis tempus nisi ut cursus. Aliquam mollis tellus nunc, a pellentesque arcu bibendum et. Etiam nisl tortor, pharetra at lorem eu, porttitor aliquam quam. Phasellus malesuada, nisl nec euismod semper, leo odio luctus diam, nec accumsan magna elit a turpis.   </p>
+        </section>
+        
+        <section>
+            <h2 id="Interno">Enlace interno</h2>
+            <p>Maecenas metus justo, tincidunt nec massa nec, facilisis blandit augue. Vestibulum posuere sed ante non ullamcorper. Morbi libero mauris, varius in dui id, rhoncus molestie nulla. Aenean mattis dolor est, ac ornare metus convallis sed. Donec posuere porta mauris sit amet efficitur. Maecenas varius efficitur vulputate. Phasellus varius nec justo nec semper. Nullam euismod, ante ut facilisis vehicula, magna libero sagittis odio, semper ultrices ante ante ut massa. Integer sed egestas quam. Phasellus ultricies sollicitudin odio.Morbi libero mauris, varius in dui id, rhoncus molestie nulla. Aenean mattis dolor est, ac ornare metus convallis sed. Donec posuere porta mauris sit amet efficitur. Maecenas varius efficitur vulputate. Phasellus varius nec justo nec semper. Nullam euismod, ante ut facilisis vehicula, magna libero sagittis odio, semper ultrices ante ante ut m <a href="../html/formatos.html"> Practica: Formatos de texto</a> Aenean quis tristique nibh. Cras euismod augue ut sagittis gravida. Praesent gravida vel ligula ut lobortis. In a ornare diam. Cras finibus rhoncus pharetra.<a href="../html/listas.html"> Practica: Listas</a>  </p>  
+            
+            <p>Pellentesque Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris purus elit, egestas nec gravida ut, porta vel velit. Mauris venenatis tempus nisi ut cursus. Aliquam mollis tellus nunc, a pellentesque arcu bibendum et. Etiam nisl tortor, pharetra at lorem eu, porttitor aliquam quam. Phasellus malesuada, nisl nec euismod semper, leo odio luctus diam, nec accumsan magna elit a turpis. </p>
+        </section>
+        
+        <section>
+            <h2 id="Email">Enlace a Email</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at massa arcu. <a href="mailto:martha.nr8@gmail.com">Correo: Martha Patricia Nepamuceno Ramirez</a> Sed ut nibh laoreet, ornare eros at, semper magna. Quisque semper eros nulla, nec convallis magna pharetra eget. Aenean quis tristique nibh. Cras euismod augue ut sagittis gravida. Praesent gravida vel ligula ut lobortis. In a ornare diam. Cras finibus rhoncus pharetra. Pellentesque consectetur odio a aliquam rhoncus. Quisque tristique dolor vitae placerat efficitur. Aenean auctor ex a mi interdum, sit amet pulvinar nisl consectetur. Nam eget lectus nisi. Integer nunc felis, commodo a tristique et, dapibus vitae quam. Vestibulum gravida dapibus leo, et malesuada urna rhoncus non. Sed ut nibh laoreet, ornare eros at, semper magna. Quisque semper eros nulla, nec convallis magna pharetra eget. Aenean quis tristique nibh. Cras euismod augue ut sagittis gravida. Praesent gravida vel ligula ut lobortis. In a ornare diam. Cras finibus rhoncus pharetra. Pellentesque consectetur odio a aliquam rhoncus. Quisque tristique dolor vitae placerat efficitur.</p>
+            <p>Pellentesque Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris purus elit, egestas nec gravida ut, porta vel velit. Mauris venenatis tempus nisi ut cursus. Aliquam mollis tellus nunc, a pellentesque arcu bibendum esuscipit enim, nec iaculis est sodales nec. Nullam malesuada nisi volutpat, dictum nulla id, blandit metus. Sed tincidunt, tellus ac molestie tristique, turpis libero iaculis augue, lobortis egestas ipsum leo nec purus. Integer ac ipsum diam. Nullam sed volutpat augue. Vestibulum at faucibus nullat. Etiam nisl tortor, pharetra at lorem eu, porttitor aliquam quam. Phasellus malesuada, nisl nec euismod semper, leo odio luctus diam, nec accumsan magna elit a turpis. </p>
+        </section>
+        
+        <section>
+            <h2 id="descarga">Enlace de descarga de archivo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at massa arcu. Sed ut nibh laoreet, ornare eros at, semper magna. <a href="../pdf/i_deltoro.pdf" download>PDF-Del  Toro</a> Quisque semper eros nulla, Etiam pulvinar suscipit enim, nec iaculis est sodales nec. Nullam malesuada nisi volutpat, dictum nulla id, blandit metus. Sed tincidunt, tellus ac molestie tristique, turpis libero iaculis augue, lobortis egestas ipsum leo nec purus. Integer ac ipsum diam. Nullam sed volutpat augue. Vestibulum at faucibus nulla, ac venenatis justo. Phasellus pellentesque felis quam, vitae accumsan diam pulvinar ut. Sed. Quisque semper eros nulla, Etiam pulvinar suscipit enim, nec iaculis est sodales nec. Nullam malesuada nisi volutpat, dictum nulla id, blandit metus. Sed tincidunt, tellus ac molestie tristique, turpis libero iaculis augue, lobortis egestas ipsum leo nec purus. Integer ac ipsum diam. Nullam sed volutpat augue. Vestibulum at faucibus nulla, ac venenatis justo. Phasellus pellentesque felis quam, vitae accumsan diam pulvinar ut. Sed.</p>
+             <p>Pellentesque Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris purus elit, egestas nec gravida ut, porta vel velit. Mauris venenatis tempus nisi ut cursus. Aliquam mollis tellus nunc, a pellentesque arcu bibendum esuscipit enim, nec iaculis est sodales nec. Nullam malesuada nisi volutpat, dictum nulla id, blandit metus. Sed tincidunt, tellus ac molestie tristique, turpis libero iaculis augue, lobortis egestas ipsum leo nec purus. Integer ac ipsum diam. Nullam sed volutpat augue. Vestibulum at faucibus nullat. Etiam nisl tortor, pharetra at lorem eu, porttitor aliquam quam. Phasellus malesuadascipit enim, nec iaculis est sodales nec. Nullam malesuada nisi volutpat, dictum nulla id, blandit metus. Sed tincidunt, tellus ac molestie tristique, turpis libero iaculis augue, lobortis egestas ipsum leo nec purus. Integer ac ipsum diam. Nullam sed volutpat augue. Vestibulum at faucibus nulla, ac venenatis justo. Phasellus pellentesque felis quam, vitae accumsan diam pulvinar ut. Sed. Quisque semper eros nul, nisl nec euismod semper, leo odio luctus diam, nec accumsan magna elit a turpis. </p>
+        </section>
+    <nav>
+       <ul>
+            <li><a href="../html/formatos.html">Formatos</a></li>
+            <li><a href="../html/listas.html">Listas</a></li>
+            <li><a href="../html/enlaces.html">Enlaces</a></li>
+            <li><a href="../html/tablas.html">Tablas</a></li>
+            <li><a href="../html/imagenes.html">Imágenes</a></li>
+            <li><a href="../html/audios.html">Audio</a></li>
+            <li><a href="../html/videos.html">Video</a></li>
+            <li><a href="../html/formularios.html">Formularios</a></li>
+        </ul>
+        
+        </nav>
+    </main>
+    
+    <footer>
+    
+       <a href="https://www.facebook.com/martita.nepamucenoramirez/?locale=es_LA" target="_blank"><img src="../imagenes/facebook.png"></a>
+        <a href="https://www.instagram.com/marneraz/"><img src="../imagenes/instagram.png" target="_blank"></a>
+        <a href="https://mx.pinterest.com/marthearte/_profile/"><img src="../imagenes/pin.png" target="_blank"></a>
+        <br><br>
+        <h6>Elaborado por Martha Patricia Nepamuceno Ramírez</h6>
+        
+    </footer>
+
+    
+    
+</body>
+
+
+</html>
